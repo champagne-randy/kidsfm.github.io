@@ -86,6 +86,7 @@ JQUERY UI
 .nicdark_bg_grey{ background-color: #f9f9f9; }
 .nicdark_bg_grey2{ background-color: #f1f1f1; }
 .nicdark_bg_greydark{ background-color: #495052;}
+.invisible{ background-color: rgba(174, 214, 218, 0);}
 .nicdark_bg_greydark2{ background-color: #404547;}
 .nicdark_bg_green{ background-color: #6fc191; }
 .nicdark_bg_blue{ background-color: #74cee4; }
@@ -179,7 +180,8 @@ JQUERY UI
 
 /* 6 - START LOGO*/
 .nicdark_logo{ float: left; position: relative; width: 10px; height: 10px; }
-.nicdark_logo img{ position: absolute; width: 135px; margin-top: 3px; border:0;}
+//.nicdark_logo img{ position: absolute; width: 135px; margin-top: 3px; border:0;}
+.nicdark_logo img{ position: absolute; width: 144px; margin-top: -8px; border:0;}
 /*END LOGO*/
 
 
