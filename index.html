@@ -15,6 +15,7 @@
     <!--START CSS--> 
     <link rel="stylesheet" href="css/nicdark_style.css"> <!--style-->
     <link rel="stylesheet" href="css/nicdark_responsive.css"> <!--nicdark_responsive-->
+    <link rel="stylesheet" href="css/flags.css"> <!--nicdark_responsive-->
 
     <!--revslider-->
     <link rel="stylesheet" href="css/revslider/settings.css"> <!--revslider-->
@@ -301,7 +302,7 @@
                             <ul class="nicdark_menu nicdark_margin010 nicdark_padding50">
 
                                 <li class="yellow">
-                                    <a href="index.html#">home</a>
+                                    <a href="#">Home</a>
                                     <!-- disabled the home submenu cause it's useless -->
                                     <!--
                                     <ul class="sub-menu">
@@ -312,7 +313,7 @@
                                     -->
                                 </li>
                                 <li class="orange">
-                                    <a href="index.html#">media</a>
+                                    <a href="#">Media</a>
 <!-- 
     ToDo:
     - add submenu for: Listen Now
@@ -320,31 +321,41 @@
     - add submenu for: View Gallery
     - add submenu for: News
 -->
-<!-- disabled the media submenu cause it's useless -->
-<!--
+
                                     <ul class="sub-menu">
-                                        <li><a href="prices.php.html">Prices</a></li>
+                                        <li><a href="#">Listen Live</a></li>
                                         <li>
-                                            <a href="teachers.php.html">Teachers</a>
+                                            <a href="#">YouTube Chanel</a>
+<!-- Disabling this sub-menu -->
+<!--                                            
                                             <ul class="sub-menu">
                                                 <li><a href="teachers.php.html">All Teachers</a></li>
                                                 <li><a href="single-teacher.php.html">Single Teacher</a></li>
                                             </ul>
+-->
                                         </li>
                                         <li>
-                                            <a href="excursions.php.html">Excursion</a>
+                                            <a href="#">Photo Gallery</a>
+<!-- Disabling this sub-menu -->
+<!--
                                             <ul class="sub-menu">
                                                 <li><a href="excursions.php.html">All Excursion</a></li>
                                                 <li><a href="single-excursion.php.html">Single Excursion</a></li>
                                             </ul>
+-->
                                         </li>
                                         <li>
-                                            <a href="courses.php.html">Courses</a>
+                                            <a href="#">Our News</a>
+<!-- Disabling this sub-menu -->
+<!--
                                             <ul class="sub-menu">
                                                 <li><a href="courses.php.html">All Courses</a></li>
                                                 <li><a href="single-course.php.html">Single Course</a></li>
                                             </ul>
+-->
                                         </li>
+<!-- Disabling the rest of the menu items -->
+<!--
                                         <li>
                                             <a href="events.php.html">Events</a>
                                             <ul class="sub-menu">
@@ -373,18 +384,15 @@
                                         </li>
                                         <li><a href="faq.php.html">Faq</a></li>
                                         <li><a href="404.php.html">404</a></li>
-                                    </ul>
 -->
+                                    </ul>
                                 </li>
                                 <li class="red">
-                                    <a href="courses.php.html">schedule</a>
-<!-- disabled the schedule submenu -->
-<!--
+                                    <a href="#">Schedule</a>
                                     <ul class="sub-menu">
-                                        <li><a href="courses.php.html">All Courses</a></li>
-                                        <li><a href="single-course.php.html">Single Course</a></li>
+                                        <li><a href="#">Today's schedule</a></li>
+                                        <li><a href="#">This week's schedule</a></li>
                                     </ul>
--->
                                 </li>
 <!-- disabled this mega menu alltogether -->
 <!--
@@ -427,7 +435,8 @@
                                 </li>
 -->
                                 <li class="green">
-                                    <a href="blog-masonry.php.html">blog</a>
+                                    <!--a href="blog-masonry.php.html">blog</a-->
+                                    <a href="#">Blog</a>
 <!-- disabled the blog submenu -->
 <!--
                                     <ul class="sub-menu">
@@ -444,7 +453,7 @@
 -->
                                 </li>
                                 <li class="violet nicdark_displaynone_ipadland">
-                                    <a href="events.php.html">events</a>
+                                    <a href="contact-1.php.html">Contact Us</a>
 <!-- disabled the events submenu -->
 <!--
                                     <ul class="sub-menu">
@@ -466,7 +475,24 @@
                                 </li>
 -->
                                 <li class="grey">
-                                    <a href="contact-1.php.html">contact us</a>
+                                    <a href="#">
+                                        <img class="lang-flag" src="img/flag/united-states.png" alt="United States" />
+                                        English
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="#">
+                                                <img class="lang-flag" src="img/flag/haiti.png" alt="Haiti" />
+                                                Kreyòl
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img class="lang-flag" src="img/flag/france.png" alt="France" />
+                                                Français
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                         </nav>
@@ -519,20 +545,20 @@
     <!--start nicdark_container-->
     <div class="nicdark_container nicdark_clearfix">
 		
-		<div class="grid grid_12 percentage nomargin">    
+		<div class="grid grid_12 percentage nomargin"> 
 			<div class="nicdark_textevidence center">
 			    <div class="nicdark_textevidence nicdark_width_percentage25 nicdark_bg_blue nicdark_shadow nicdark_radius_left">
 			        <div class="nicdark_textevidence">
 			            <div class="nicdark_margin30">
-			                <h2 class="white subtitle"><a class="white" href="courses.php.html">Our Blog</a></h2>
+			                <h2 class="white subtitle"><a class="white" href="#">Listen Live</a></h2>
 			           </div>
-			            <i class="nicdark_zoom icon-pencil-2 nicdark_iconbg left extrabig blue nicdark_displaynone_ipadland nicdark_displaynone_ipadpotr"></i>
+			            <i class="nicdark_zoom icon-music-2 nicdark_iconbg left extrabig blue nicdark_displaynone_ipadland nicdark_displaynone_ipadpotr"></i>
 			        </div>
 			    </div>
 			    <div class="nicdark_textevidence nicdark_width_percentage25 nicdark_bg_yellow nicdark_shadow">
 			        <div class="nicdark_textevidence">
 			            <div class="nicdark_margin30">
-			                <h2 class="white subtitle"><a class="white" href="prices.php.html">Contests</a></h2>
+			                <h2 class="white subtitle"><a class="white" href="#">Our Contests</a></h2>
 			           </div>
 			            <i class="nicdark_zoom icon-money-1 nicdark_iconbg left extrabig yellow nicdark_displaynone_ipadland nicdark_displaynone_ipadpotr"></i>
 			        </div>
@@ -540,15 +566,15 @@
 			    <div class="nicdark_textevidence nicdark_width_percentage25 nicdark_bg_orange nicdark_shadow">
 			        <div class="nicdark_textevidence">
 			            <div class="nicdark_margin30">
-			                <h2 class="white subtitle"><a class="white" href="events.php.html">Listen Live</a></h2>
+			                <h2 class="white subtitle"><a class="white" href="#">Our Blog</a></h2>
 			           </div>
-			            <i class="nicdark_zoom icon-music-2 nicdark_iconbg left extrabig orange nicdark_displaynone_ipadland nicdark_displaynone_ipadpotr"></i>
+			            <i class="nicdark_zoom icon-pencil-2 nicdark_iconbg left extrabig orange nicdark_displaynone_ipadland nicdark_displaynone_ipadpotr"></i>
 			        </div>
 			    </div>
 			    <div class="nicdark_textevidence nicdark_width_percentage25 nicdark_bg_green nicdark_shadow nicdark_radius_right">
 			        <div class="nicdark_textevidence">
 			            <div class="nicdark_margin30">
-			                <h2 class="white subtitle"><a class="white" href="teachers.php.html">Our Team</a></h2>
+			                <h2 class="white subtitle"><a class="white" href="#">Our Team</a></h2>
 			           </div>
 			            <i class="nicdark_zoom icon-graduation-cap-1 nicdark_iconbg left extrabig green nicdark_displaynone_ipadland nicdark_displaynone_ipadpotr"></i>
 			        </div>
@@ -572,15 +598,17 @@
 
 
         <div class="grid grid_12">
-            <h1 class="subtitle greydark">Our Approach</h1>
+            <h1 class="subtitle greydark">Our Mission</h1>
             <div class="nicdark_space20"></div>
-            <h3 class="subtitle grey">Kids FM's mission is to introduce the Gospel to Children in a fun and exciting way</h3>
+            <h3 class="subtitle grey">Kids FM's approach is to introduce the Gospel to Children in a fun and exciting way</h3>
             <div class="nicdark_space20"></div>
             <div class="nicdark_divider left big"><span class="nicdark_bg_yellow nicdark_radius"></span></div>
             <div class="nicdark_space10"></div>
         </div>
 
 
+<!-- Disabling this activity -->
+<!--            
         <div class="grid grid_4 nicdark_relative">
 
             <div class="nicdark_btn_iconbg nicdark_bg_yellow nicdark_absolute extrabig nicdark_shadow nicdark_radius">
@@ -588,7 +616,7 @@
                     <i class="icon-leaf-1 nicdark_iconbg left big white"></i> 
                 </div>
             </div>
-            
+
             <div class="nicdark_activity nicdark_marginleft100">
                 <h4>CUSTOM FOOD</h4>                        
                 <div class="nicdark_space20"></div>
@@ -599,6 +627,7 @@
             </div>
         
         </div>
+-->
 
         <div class="grid grid_4 nicdark_relative">
             
@@ -609,9 +638,11 @@
             </div>
             
             <div class="nicdark_activity nicdark_marginleft100">
-                <h4>MANY SPORTS</h4>                        
+                <h4>24/7 programming</h4>                        
                 <div class="nicdark_space20"></div>
-                <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Pellentesque tincidunt rutrum sapien, sed ultricies diam.</p>
+                <p>
+                    You can count on us to fill your airwaves with wonderful content at any time of the day or night
+                </p>
                 <div class="nicdark_space20"></div>
                 <a href="index.html#" class="nicdark_btn grey"><i class="icon-right-open-outline"></i> More</a>
                 <div class="nicdark_space20"></div>
@@ -619,6 +650,8 @@
         
         </div>
 
+<!-- Disabling this activity -->
+<!--            
         <div class="grid grid_4 nicdark_relative">
             
             <div class="nicdark_btn_iconbg nicdark_bg_green nicdark_absolute extrabig nicdark_shadow nicdark_radius">
@@ -637,6 +670,7 @@
             </div>    
         
         </div>
+-->
 
 
         <div class="grid grid_4 nicdark_relative">
@@ -648,15 +682,19 @@
             </div>
             
             <div class="nicdark_activity nicdark_marginleft100">
-                <h4>MUSIC LESSON</h4>                        
+                <h4>Music</h4>                        
                 <div class="nicdark_space20"></div>
-                <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Pellentesque tincidunt rutrum sapien, sed ultricies diam.</p>
+                <p>
+                    From timeless classics to the latest tunes, we select only the best music for you child.
+                </p>
                 <div class="nicdark_space20"></div>
                 <a href="index.html#" class="nicdark_btn grey"><i class="icon-right-open-outline"></i> More</a>
             </div>
         
         </div>
 
+<!-- Disabling this activity -->
+<!--            
         <div class="grid grid_4 nicdark_relative">
             
             <div class="nicdark_btn_iconbg nicdark_bg_violet nicdark_absolute extrabig nicdark_shadow nicdark_radius">
@@ -674,6 +712,7 @@
             </div>   
         
         </div>
+-->
 
         <div class="grid grid_4 nicdark_relative">
             
@@ -684,9 +723,11 @@
             </div>
             
             <div class="nicdark_activity nicdark_marginleft100">
-                <h4>LANGUAGES</h4>                        
+                <h4>Languages</h4>                        
                 <div class="nicdark_space20"></div>
-                <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Pellentesque tincidunt rutrum sapien, sed ultricies diam.</p>
+                <p>
+                    Our programming includes a mixture of Creole, French, English and Spanish content.
+                </p>
                 <div class="nicdark_space20"></div>
                 <a href="index.html#" class="nicdark_btn grey"><i class="icon-right-open-outline"></i> More</a>
             </div>    
@@ -710,10 +751,10 @@
         <div class="nicdark_space50"></div>
 
         <div class="grid grid_6 nicdark_aligncenter_iphoneland nicdark_aligncenter_iphonepotr">
-            <a href="courses.php.html" class="nicdark_disable_floatright_iphoneland nicdark_disable_floatright_iphonepotr nicdark_btn nicdark_bg_blue medium right nicdark_shadow nicdark_radius white nicdark_press"><i class="icon-th-outline"></i>&nbsp;&nbsp;&nbsp;ALL COURSES</a>
+            <a href="courses.php.html" class="nicdark_disable_floatright_iphoneland nicdark_disable_floatright_iphonepotr nicdark_btn nicdark_bg_blue medium right nicdark_shadow nicdark_radius white nicdark_press"><i class="icon-th-outline"></i>&nbsp;&nbsp;&nbsp;View Schedule</a>
         </div>
         <div class="grid grid_6 nicdark_aligncenter_iphoneland nicdark_aligncenter_iphonepotr">
-            <a href="contact-1.php.html" class=" nicdark_btn nicdark_bg_blue medium nicdark_shadow nicdark_radius white nicdark_press"><i class="icon-pencil-1"></i>&nbsp;&nbsp;&nbsp;CONTACT US</a>
+            <a href="contact-1.php.html" class=" nicdark_btn nicdark_bg_blue medium nicdark_shadow nicdark_radius white nicdark_press"><i class="icon-pencil-1"></i>&nbsp;&nbsp;&nbsp;Contact Us</a>
         </div>
 
         <div class="nicdark_space40"></div>
@@ -882,9 +923,9 @@
             <div class="nicdark_space50"></div>
 
             <div class="grid grid_12">
-                <h1 class="white center subtitle">FIRST DAY AT SCHOOL !</h1>
+                <h1 class="white center subtitle">Are you listening?</h1>
                 <div class="nicdark_space10"></div>
-                <h3 class="subtitle center white">ARE YOU READY ?</h3>
+                <h3 class="subtitle center white">We've been live for:</h3>
                 <div class="nicdark_space20"></div>
                 <div class="nicdark_divider center big"><span class="nicdark_bg_white nicdark_radius"></span></div> 
                 <div class="nicdark_space20"></div>    
@@ -1094,30 +1135,30 @@
 
             <div class="grid grid_3">
                 <div class="nicdark_textevidence center">
-                    <a href="index.html#" class="nicdark_width50 white nicdark_btn nicdark_bg_blue nicdark_bg_bluedark_hover nicdark_transition nicdark_shadow extrasize nicdark_radius_circle subtitle nicdark_counter" data-to="69" data-speed="1000">69</a>
+                    <a href="index.html#" class="nicdark_width50 white nicdark_btn nicdark_bg_blue nicdark_bg_bluedark_hover nicdark_transition nicdark_shadow extrasize nicdark_radius_circle subtitle nicdark_counter" data-to="24" data-speed="10">24</a>
                     <div class="nicdark_space20"></div>
-                    <h4 class="white">TEACHERS</h4>
+                    <h4 class="white">hours a day</h4>
                 </div>
             </div>
             <div class="grid grid_3">
                 <div class="nicdark_textevidence center">
-                    <a href="index.html#" class="nicdark_width50 white nicdark_btn nicdark_bg_green nicdark_bg_greendark_hover nicdark_transition nicdark_shadow extrasize nicdark_radius_circle subtitle nicdark_counter" data-to="32" data-speed="1000">32</a>
+                    <a href="index.html#" class="nicdark_width50 white nicdark_btn nicdark_bg_green nicdark_bg_greendark_hover nicdark_transition nicdark_shadow extrasize nicdark_radius_circle subtitle nicdark_counter" data-to="7" data-speed="10">7</a>
                     <div class="nicdark_space20"></div>
-                    <h4 class="white">COURSES</h4>
+                    <h4 class="white">days a week</h4>
                 </div>
             </div>
             <div class="grid grid_3">
                 <div class="nicdark_textevidence center">
-                    <a href="index.html#" class="nicdark_width50 white nicdark_btn nicdark_bg_yellow nicdark_bg_yellowdark_hover nicdark_transition nicdark_shadow extrasize nicdark_radius_circle subtitle nicdark_counter" data-to="48" data-speed="1000">48</a>
+                    <a href="index.html#" class="nicdark_width50 white nicdark_btn nicdark_bg_yellow nicdark_bg_yellowdark_hover nicdark_transition nicdark_shadow extrasize nicdark_radius_circle subtitle nicdark_counter" data-to="12" data-speed="10">12</a>
                     <div class="nicdark_space20"></div>
-                    <h4 class="white">LESSONS</h4>
+                    <h4 class="white">different programs</h4>
                 </div>
             </div>
             <div class="grid grid_3">
                 <div class="nicdark_textevidence center">
-                    <a href="index.html#" class="nicdark_width50 white nicdark_btn nicdark_bg_violet nicdark_bg_violetdark_hover nicdark_transition nicdark_shadow extrasize nicdark_radius_circle subtitle nicdark_counter" data-to="72" data-speed="1000">72</a>
+                    <a href="index.html#" class="nicdark_width50 white nicdark_btn nicdark_bg_violet nicdark_bg_violetdark_hover nicdark_transition nicdark_shadow extrasize nicdark_radius_circle subtitle nicdark_counter" data-to="10" data-speed="10">10</a>
                     <div class="nicdark_space20"></div>
-                    <h4 class="white">ACTIVITIES</h4>
+                    <h4 class="white">EmCees</h4>
                 </div>
             </div>
 
@@ -1140,9 +1181,9 @@
         <div class="nicdark_space50"></div>
 
         <div class="grid grid_12">
-            <h1 class="subtitle greydark">OUR NEWS</h1>
+            <h1 class="subtitle greydark">Our News</h1>
             <div class="nicdark_space20"></div>
-            <h3 class="subtitle grey">FOLLOW OUR MOST IMPORTANT NEWS</h3>
+            <h3 class="subtitle grey">Stay in touch with our latest developments</h3>
             <div class="nicdark_space20"></div>
             <div class="nicdark_divider left big"><span class="nicdark_bg_blue nicdark_radius"></span></div>
             <div class="nicdark_space10"></div>
